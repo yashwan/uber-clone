@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "uber-clone-expo",
+    "slug": "uber-clone-expo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./images/7.png",
+    "splash": {
+      "image": "./images/7.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yashwanth1556.ubercloneexpo",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyAhI-54fHpSDg1cVr7wt8IHsMjmib59U7E"
+        }
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./images/7.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.yashwanth1556.ubercloneexpo",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyAhI-54fHpSDg1cVr7wt8IHsMjmib59U7E"
+        }
+      }
+    },
+    "web": {
+      "favicon": "./images/5.png"
+    }
+  }
+}
